@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  font-size: 14px;
+}
+table {
+  border: 1px solid #000;
+  width: 100%;
+}
+th,td {
+  padding: 5px;
+}
+th {
+  border: 1px solid blue;
+}
+td {
+  border: 1px solid red;
+  vertical-align: top;
+  height: 100px;
+}
+.gray {
+  color: #bbb;
+  border: 1px solid #aaa;
+  background-color: #eee;
+}
